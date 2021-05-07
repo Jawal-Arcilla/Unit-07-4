@@ -9,7 +9,7 @@ function input () {
   day = document.getElementById('day').value
   day = parseInt(day)
 
-  if ((day === 'Tuesday'| | day === 'Thursday') | (userInput >= 12 & userInput <= 21)) {
+  if ((day === 'Tuesday'||day === 'Thursday') | (userInput >= 12 & userInput <= 21)) {
     document.getElementById('answer').innerHTML = 'You are eligible for student pricing'}
   else {
   document.getElementById('answer').innerHTML = 'You must pay the regular price'
